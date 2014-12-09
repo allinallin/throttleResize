@@ -30,10 +30,12 @@ The `throttle` object also contains properties for the pixel width and height of
 
 ```javascript
 function customFunc() {
-	if ( throttle.windowWidth > 320 ) { // do stuff }
-	if ( throttle.windowHeight > 480 ) { // do stuff }
-	
-	// do stuff
+	if ( throttle.windowWidth > 320 ) { 
+		// do stuff
+	}
+	if ( throttle.windowHeight > 480 ) { 
+		// do stuff
+	}
 }
 ```
 ## Beyond
